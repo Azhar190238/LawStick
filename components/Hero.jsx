@@ -33,9 +33,7 @@
 //                 </div>
 //             </div>
 
-//         </div>
-//     );
-// };
+
 
 // export default Hero;
 
