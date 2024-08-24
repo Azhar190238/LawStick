@@ -80,7 +80,7 @@ const Hero = () => {
                             width={650}
                             alt='photo'
                             className='lg:absolute lg:max-w-none lg:translate-x-1/2'
-                            // style={{ transform: 'translateX(50%)' }}
+                           
                         />
                     </div>
                 </div>
