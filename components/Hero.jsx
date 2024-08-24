@@ -12,7 +12,6 @@
 //                         </div>
 //                         <h1 className='text-[#021C1B] text-6xl whitespace-pre font-bold mb-10  '>Defending your right <br />
 //                             Delivering justice.</h1>
-//                         <p className='text-[#5B5353] text-[16px] font-normal mb-10'>Committed to defending your rights and delivering justice with integrity,<br /> we work tirelessly to ensure your voice is heard</p>
 
 
                        
