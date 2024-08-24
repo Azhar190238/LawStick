@@ -5,7 +5,7 @@
 //     return (
 //         <div className='bg-[#F9F6EE] relative mx-auto'>
 //             <div className='max-w-[1230px] mx-auto'>
-//                 <div className='flex flex-col md:flex-row space-x-40 mx-auto '>
+
                       
 
 
