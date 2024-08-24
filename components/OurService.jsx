@@ -28,7 +28,7 @@ const OurService = () => {
                         width={550}
                         alt='photo'
                         className=''
-                    // style={{ transform: 'translateX(50%)' }}
+                   
                     />
                 </div>
 
