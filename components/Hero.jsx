@@ -3,7 +3,7 @@
 
 // const Hero = () => {
 //     return (
-//         <div className='bg-[#F9F6EE] relative mx-auto'>
+
 
 
                       
