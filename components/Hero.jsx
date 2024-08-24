@@ -30,8 +30,7 @@
 //                     <div className='flex justify-center items-center'>
 //                     <Image src='/photo.png' height={850} width={850} alt='photo' className='relative'></Image>
 //                     </div>
-//                 </div>
-//             </div>
+
 
 
 
