@@ -23,7 +23,6 @@
 //                             </button>
 //                         </div>
 //                         <div>
-//                         <Image src='/h2.png' height={100} width={100} alt='hero2' className='absolute top-12 -left-36'></Image>
 
 
 
