@@ -1,26 +1,4 @@
 
-
-
-
-
-
-
-
-                      
-
-
-
-
-                       
-
-
-
-
-
-
-// export default Hero;
-
-
 import Image from 'next/image';
 import React from 'react';
 
