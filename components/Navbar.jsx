@@ -19,7 +19,7 @@ const Navbar = () => {
     ];
 
     return (
-        <div className="navbar relative z-10 max-w-[1320px] mx-auto my-5">
+        <div className="navbar relative z-10 max-w-[1230px] mx-auto my-5">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
