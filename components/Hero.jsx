@@ -6,8 +6,7 @@
 //         <div className='bg-[#F9F6EE] relative mx-auto'>
 //             <div className='max-w-[1230px] mx-auto'>
 //                 <div className='flex flex-col md:flex-row space-x-40 mx-auto '>
-//                     <div className='relative'>
-//                         <div className='border-2 border-[#B68C5A] max-w-[250px] mt-[102px] mb-10'>
+                      
 
 
 
