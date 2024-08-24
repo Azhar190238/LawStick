@@ -8,8 +8,7 @@
 //                 <div className='flex flex-col md:flex-row space-x-40 mx-auto '>
 //                     <div className='relative'>
 //                         <div className='border-2 border-[#B68C5A] max-w-[250px] mt-[102px] mb-10'>
-//                         <p className='text-[#021C1B] text-xl py-2  px-3'>championing Justice... </p>
-//                         </div>
+
 
 
 
