@@ -18,7 +18,7 @@
 //                                 Get Appointment
 //                             </button>
 //                             <button className="px-8 py-4 flex  border-2 border-[#B68C5A] text-[#1D1C22] text-xl rounded-[4px] hover:bg-[#B68C5A] hover:text-white transition-colors duration-300">
-//                             learn more 
+
 
 
 
