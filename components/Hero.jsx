@@ -27,9 +27,7 @@
 //                         <Image src='/h1.png' height={100} width={100} alt='hero1' className='absolute bottom-20 -left-36'></Image>
 //                         </div>
 //                     </div>
-//                     <div className='flex justify-center items-center'>
-//                     <Image src='/photo.png' height={850} width={850} alt='photo' className='relative'></Image>
-//                     </div>
+
 
 
 
