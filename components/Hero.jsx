@@ -11,7 +11,7 @@ const Hero = () => {
                         <div className='border-2 border-[#B68C5A] max-w-[250px] mt-[102px] mb-10'>
                             <p className='text-[#021C1B] text-xl py-2 px-3'>championing Justice...</p>
                         </div>
-                        <h1 className='text-[#021C1B] text-6xl whitespace-pre font-bold mb-10'>
+                        <h1 className='text-[#021C1B] text-4xl md:text-6xl whitespace-pre font-bold mb-10'>
                             Defending your right <br />
                             Delivering justice.
                         </h1>
