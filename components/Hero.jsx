@@ -19,13 +19,29 @@ const Hero = () => {
                             Committed to defending your rights and delivering justice with integrity,<br /> we work tirelessly to ensure your voice is heard
                         </p>
                         <div className='flex space-x-8'>
-                            <button className="px-8 py-4 border-2 border-[#B68C5A] text-[#1D1C22] text-xl rounded-[4px] hover:bg-[#B68C5A] hover:text-white transition-colors duration-300">
+                            <button className="px-8 py-4 border-2 border-[#B68C5A] text-xl rounded-[4px] bg-[#B68C5A]text-white transition-colors duration-300">
                                 Get Appointment
                             </button>
-                            <button className="px-8 py-4 flex border-2 border-[#B68C5A] text-[#1D1C22] text-xl rounded-[4px] hover:bg-[#B68C5A] hover:text-white transition-colors duration-300">
+                            {/* <button className="px-8 py-4 flex border-2 border-[#B68C5A] text-[#1D1C22] text-xl rounded-[4px] hover:bg-[#B68C5A] hover:text-white transition-colors duration-300">
                                 learn more
-                                <Image src='/Frame.svg' height={24} width={24} alt='arrow' className='ml-2 mt-1'></Image>
+                                <Image src='/Frame.svg' height={24} width={24} alt='arrow' className='ml-2 mt-1 hover:bg-white' ></Image>
+                            </button> */}
+                            {/* <button className="px-8 py-4 flex border-2 border-[#B68C5A] text-[#1D1C22] text-xl rounded-[4px] hover:bg-[#B68C5A] hover:text-white transition-colors duration-300">
+                                learn more
+                                <Image src='/Frame.svg' height={24} width={24} alt='arrow' className='ml-2 mt-1 transition-colors duration-300' />
+                            </button> */}
+                            <button className="px-8 py-4 flex border-2 border-[#B68C5A] text-[#1D1C22] text-xl rounded-[4px] hover:bg-[#B68C5A] hover:text-white transition-colors duration-300 group">
+                                learn more
+                                <Image
+                                    src='/Frame.svg'
+                                    height={24}
+                                    width={24}
+                                    alt='arrow'
+                                    className='ml-2 mt-1 transition-colors duration-300 group-hover:invert'
+                                />
                             </button>
+
+
                         </div>
                         <div>
                             <Image src='/h2.png' height={100} width={100} alt='hero2' className='absolute top-12 -left-36'></Image>
@@ -39,7 +55,7 @@ const Hero = () => {
                             width={650}
                             alt='photo'
                             className='lg:absolute lg:max-w-none lg:translate-x-1/2'
-                           
+
                         />
                     </div>
                 </div>

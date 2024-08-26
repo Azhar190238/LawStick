@@ -12,7 +12,7 @@ const AboutUs = () => {
                         width={550}
                         alt='photo'
                         className=''
-                    
+
                     />
                 </div>
                 <div>
@@ -24,9 +24,19 @@ const AboutUs = () => {
                     <p className='text-[#5B5353] text-[16px] mb-12 max-w-[750px]'>At the heart of our practice lies a steadfast commitment to defending your rights and delivering justice
                         with precision and integrity. We understand the importance of every case and the impact it has on your
                         life. Our dedicated team works tirelessly to ensure that your voice is heard.</p>
-                    <button className="px-8 py-4 flex border-2 border-[#B68C5A] text-[#1D1C22] text-xl rounded-[4px] hover:bg-[#B68C5A] hover:text-white transition-colors duration-300">
+                    {/* <button className="px-8 py-4 flex border-2 border-[#B68C5A] text-[#1D1C22] text-xl rounded-[4px] hover:bg-[#B68C5A] hover:text-white transition-colors duration-300">
                         learn more
-                        <Image src='/Frame.svg' height={24} width={24} alt='arrow' className='ml-2 mt-1'></Image>
+                        <Image src='/Frame.svg' height={24} width={24} alt='arrow' className='ml-2 mt-1 transition-colors duration-300 group-hover:invert '></Image>
+                    </button> */}
+                    <button className="px-8 py-4 flex border-2 border-[#B68C5A] text-[#1D1C22] text-xl rounded-[4px] hover:bg-[#B68C5A] hover:text-white transition-colors duration-300 group">
+                        learn more
+                        <Image
+                            src='/Frame.svg'
+                            height={24}
+                            width={24}
+                            alt='arrow'
+                            className='ml-2 mt-1 transition-colors duration-300 group-hover:invert'
+                        />
                     </button>
                 </div>
             </div>

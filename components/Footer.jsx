@@ -28,7 +28,9 @@ const Footer = () => {
                 <nav>
                     <h6 className="text-[16px] text-[#0C0C15] font-semibold mb-16">Support</h6>
                     <a className="link link-hover font-medium text-[16px] text-[#0C0C15] mb-5">Blog</a>
-                    <a className="link link-hover font-medium text-[16px] text-[#0C0C15]">page</a>
+                    <a className="link link-hover font-medium text-[16px] text-[#0C0C15] mb-5">Page</a>
+                    <a className="link link-hover font-medium text-[16px] text-[#0C0C15]">Careers</a>
+                    
                 </nav>
                 <nav>
                     <h6 className="text-[18px] text-[#0C0C15] font-semibold">Follows us on :</h6>
