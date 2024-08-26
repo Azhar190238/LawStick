@@ -1,4 +1,7 @@
 import AboutUs from "@/components/AboutUs";
+import Blog from "@/components/Blog";
+import Experience from "@/components/Experience";
+import Expert from "@/components/Expert";
 import Hero from "@/components/Hero";
 import OurService from "@/components/OurService";
 import Team from "@/components/Team/Team";
@@ -13,6 +16,9 @@ export default function Home() {
       <OurService></OurService>
       <WhatWeUs></WhatWeUs>
       <Team></Team>
+      <Expert></Expert>
+      <Experience></Experience>
+      <Blog></Blog>
     </div>
   );
 }

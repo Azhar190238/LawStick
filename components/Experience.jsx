@@ -13,20 +13,20 @@ const Experience = () => {
                     <h1 className='heading text-center'>clients have confident <br className='hidden lg:flex' /> with us </h1>
                 </div>
             </div>
-            <div className='bg-[#F9F6EE]'>
+            <div className='bg-[#F9F6EE] mt-12'>
                 {/* slider part */}
 
                 <div className="carousel w-full">
                     <div id="slide1" className="carousel-item relative w-full">
 
-                        <div className='max-w-[1320px] mx-auto pt-20 pb-8 pl-5'>
+                        <div className='max-w-[1230px] mx-auto pt-20 pb-8 pl-5'>
                             <div className='flex flex-col lg:flex-row justify-between'>
                                 <div className='flex-1'>
                                     <div>
                                         <Image src='/logo.png' height={100} width={100} alt='Blog Icon' />
                                     </div>
-                                    <p className='text-4xl text-red-800'>1</p>
-                                    <p className='text-[26px] lato mt-10 lg:mt-32'>“ I am incredibly satisfied with the firm’s professionalism and dedication. They kept me informed, supported, and delivered outstanding results. Highly recommend! ”</p>
+                                
+                                    <p className='text-2xl lato mt-10 lg:mt-32 text-justify'>“ I am incredibly satisfied with the firm’s professionalism and dedication. They kept me informed, supported, and delivered outstanding results. Highly recommend! ”</p>
 
                                 </div>
                                 <div className='flex-1'>
@@ -48,8 +48,8 @@ const Experience = () => {
                                 <div className='mt-8 flex gap-2 items-center'>
                                     <Image src='/quete.png' height={50} width={50} alt='Blog Icon' />
                                     <div>
-                                        <p className='text-xl lato'>Brooklyn Simmons</p>
-                                        <p className='text-[14px] lato'>CEO and Founder</p>
+                                        <p className='text-xl '>Brooklyn Simmons</p>
+                                        <p className='text-[14px] '>CEO and Founder</p>
                                     </div>
                                 </div>
                                 <div>
@@ -72,7 +72,7 @@ const Experience = () => {
                                     <div>
                                         <Image src='/logo.png' height={100} width={100} alt='Blog Icon' />
                                     </div>
-                                    <p className='text-4xl text-red-800'>2</p>
+                                   
                                     <p className='text-[26px] lato mt-10 lg:mt-32'>“ I am incredibly satisfied with the firm’s professionalism and dedication. They kept me informed, supported, and delivered outstanding results. Highly recommend! ”</p>
 
                                 </div>
@@ -119,7 +119,7 @@ const Experience = () => {
                                     <div>
                                         <Image src='/logo.png' height={100} width={100} alt='Blog Icon' />
                                     </div>
-                                    <p className='text-4xl text-red-800'>3</p>
+                                  
                                     <p className='text-[26px] lato mt-10 lg:mt-32'>“ I am incredibly satisfied with the firm’s professionalism and dedication. They kept me informed, supported, and delivered outstanding results. Highly recommend! ”</p>
 
                                 </div>
@@ -166,7 +166,7 @@ const Experience = () => {
                                     <div>
                                         <Image src='/logo.png' height={100} width={100} alt='Blog Icon' />
                                     </div>
-                                    <p className='text-4xl text-red-800'>4</p>
+                              
                                     <p className='text-[26px] lato mt-10 lg:mt-32'>“ I am incredibly satisfied with the firm’s professionalism and dedication. They kept me informed, supported, and delivered outstanding results. Highly recommend! ”</p>
 
                                 </div>

@@ -3,13 +3,13 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <section className='mt-20 mb-20 max-w-[1320px] mx-auto'>
+        <section className='mt-20 mb-20 max-w-[1230px] mx-auto'>
             <div className='flex items-center gap-2'>
                 <Image src='/blogIcon.png' height={26} width={32} alt='Blog Icon' />
                 <p className='text-[#B68C5A] text-[16px] font-bold'>Latest Top Blog</p>
             </div>
             <div className='mt-[25px]'>
-                <h1 className='heading '>Legal Insights & Expert Advice: <br className='hidden lg:flex' />
+                <h1 className='heading text-left'>Legal Insights & Expert Advice: <br className='hidden lg:flex' />
                     Our Blog</h1>
             </div>
             <div className='mt-[40px]'>
