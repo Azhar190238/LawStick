@@ -20,9 +20,11 @@ body {
   padding-bottom: 50px;
 }
 
-.mySwiper .swiper-slide-thumb-active {
-    opacity: 0;
-  }
+.swiper-slide-active {
+  opacity: 1;
+  margin-left: 50px;
+  margin-right: 100px;
+}
 
 .swiper-slide {
   background-position: center;

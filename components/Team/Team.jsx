@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide  } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -12,9 +12,11 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 
 import './styles.css';
+// import '/Learning-job/NEXT JS/lawstick/app/style'
+// import './team'
 
 // import required modules
-import { EffectCoverflow, Thumbs } from 'swiper/modules';
+import { EffectCoverflow, Thumbs, Autoplay } from 'swiper/modules';
 
 
 const Team = () => {
@@ -24,7 +26,7 @@ const Team = () => {
     };
 
     return (
-        <section className='max-w-[1230px] mx-auto mb-20'>
+        <section className='max-w-[1540px] mx-auto mb-20'>
             <div className='flex flex-col items-center justify-center'>
                 <div className='flex items-center gap-2 justify-center'>
                     <Image src='/blogIcon.png' height={26} width={32} alt='Blog Icon' />
@@ -39,16 +41,20 @@ const Team = () => {
                     effect={'coverflow'}
                     grabCursor={true}
                     centeredSlides={true}
+                    loop={true}
                     slidesPerView={'auto'}
                     coverflowEffect={{
-                        rotate: 50,
+                        rotate: 0,
                         stretch: 0,
-                        depth: 100,
-                        modifier: 1,
+                        depth: 150,
+                        modifier: 2.5,
                         slideShadows: true,
                     }}
-                    pagination={true}
-                    modules={[EffectCoverflow, Thumbs]}
+                    autoplay={{
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    }}
+                    modules={[EffectCoverflow , Autoplay]}
                     className="mySwiper"
                 >
                     <SwiperSlide>
@@ -111,6 +117,7 @@ const Team = () => {
                             </div>
                         </div>
                     </SwiperSlide>
+
                 </Swiper>
 
             </div>
