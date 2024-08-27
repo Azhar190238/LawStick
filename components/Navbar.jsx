@@ -178,9 +178,7 @@
 //                                     <span className={activeLink === link.label ? 'text-[#B68C5A] cursor-pointer' : 'cursor-pointer'}>
 //                                         {link.label}
 //                                     </span>
-//                                     <ul className="dropdown-content absolute hidden text-gray-700 pt-1">
-//                                         {link.submenu.map(sublink => (
-//                                             <li key={sublink.key}>
+
 
 
 
