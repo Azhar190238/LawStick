@@ -65,10 +65,7 @@
 // //                     {links.map(link => (
 // //                         <li key={link.name}>
 // //                             <Link
-// //                                 href={link.path}
-// //                                 className={activeLink === link.name ? 'text-[#B68C5A]' : ''}
-// //                                 onClick={() => setActiveLink(link.name)}
-// //                             >
+
 
 
 
