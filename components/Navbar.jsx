@@ -181,10 +181,6 @@
 //                                     <ul className="dropdown-content absolute hidden text-gray-700 pt-1">
 //                                         {link.submenu.map(sublink => (
 //                                             <li key={sublink.key}>
-//                                                 <Link
-//                                                     href={sublink.path}
-//                                                     className={activeLink === link.label ? 'text-[#B68C5A] bg-gray-200' : 'bg-white hover:bg-gray-400'}
-//                                                     onClick={() => setActiveLink(link.label)}
 
 
 
