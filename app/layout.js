@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <NavbarSwitcher /> {/* Use NavbarSwitcher */}
+        <NavbarSwitcher /> 
         {children}
         <Footer />
       </body>
