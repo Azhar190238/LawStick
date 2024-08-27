@@ -52,9 +52,7 @@
 // //                                     onClick={() => setActiveLink(link.name)}
 // //                                 >
 // //                                     {link.name}
-// //                                 </Link>
-// //                             </li>
-// //                         ))}
+
 
 
 
