@@ -19,10 +19,7 @@
 // //         },
 // //         { name: 'About', path: '/' },
 // //         { name: 'Services', path: '/' },
-// //         { name: 'Case Study', path: '/' },
-// //         { name: 'Page', path: '/' },
-// //         { name: 'Blogs', path: '/' },
-// //         { name: 'Contact Us', path: '/' },
+
 
 
 
