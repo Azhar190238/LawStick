@@ -23,10 +23,6 @@
 // //         { name: 'Page', path: '/' },
 // //         { name: 'Blogs', path: '/' },
 // //         { name: 'Contact Us', path: '/' },
-// //     ];
-
-// //     return (
-// //         <div className="navbar relative z-10 max-w-[1230px] mx-auto my-5">
 
 
 
