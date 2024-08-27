@@ -29,11 +29,7 @@
 // //                                 src='/Frame.svg'
 // //                                 height={24}
 // //                                 width={24}
-// //                                 alt='arrow'
-// //                                 className='ml-2 mt-1 transition-colors duration-300 group-hover:invert'
-// //                             />
-// //                         </button>
-// //                     </div>
+
 
 
 
