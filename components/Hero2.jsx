@@ -2,16 +2,7 @@
 // // import React from 'react';
 
 // // const Hero2 = () => {
-// //     return (
-// //         <div
-// //             className=" relative -top-24 bg-cover bg-center bg-no-repeat h-screen w-full flex items-center"
-// //             style={{ backgroundImage: 'url(/bg-image.png)' }}
-// //         >
-// //             <div className='max-w-[1320px] mx-auto '>
-// //                 <div className=''>              
-// //                       <div className='border-2 border-[#B68C5A] text-left max-w-[250px] mb-10'>
-// //                     <p className='text-[#021C1B] text-xl py-2 px-3'>championing Justice...</p>
-// //                 </div>
+
 
 
 
