@@ -106,9 +106,6 @@
 //                 { label: 'Home 2', path: '/home2', key: '1' }
 //             ]
 //         },
-//         { label: 'About', path: '/' },
-//         { label: 'Services', path: '/' },
-//         { label: 'Case Study', path: '/' },
 
 
 
