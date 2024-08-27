@@ -156,12 +156,7 @@
 //                                     </div>
 //                                 ) : (
 //                                     <Link
-//                                         href={link.path}
-//                                         className={activeLink === link.label ? 'text-[#B68C5A]' : ''}
-//                                         onClick={() => setActiveLink(link.label)}
-//                                     >
-//                                         {link.label}
-//                                     </Link>
+
 
 
 
