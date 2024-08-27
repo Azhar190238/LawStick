@@ -5,8 +5,6 @@
 // // import Link from 'next/link';
 // // import Image from "next/image";
 
-// // const Navbar = () => {
-// //     const [activeLink, setActiveLink] = useState('Home');
 
 
 
