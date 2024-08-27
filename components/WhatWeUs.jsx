@@ -12,7 +12,7 @@ const WhatWeUs = () => {
                 </div>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'>
-                <div className='bg-[#F3E8DF] hover:bg-[#B68C5A] hover:text-[white] h-[222px] w-72 rounded-lg transition-colors duration-300 group'>
+                <div className='bg-[#F3E8DF] hover:bg-[#B68C5A] hover:text-[white] h-[222px] max-w-72 rounded-lg transition-colors duration-300 group'>
                     <div className='p-6'>
                         <Image src='/hs.png' height={26} width={32} alt='order' className='transition-colors duration-300 group-hover:invert'></Image>
                         <div className='flex justify-between pt-24'>
@@ -24,7 +24,7 @@ const WhatWeUs = () => {
                     </div>
 
                 </div>
-                <div className='bg-[#F3E8DF] hover:bg-[#B68C5A] hover:text-[white] h-[222px] w-72 rounded-lg transition-colors duration-300 group'>
+                <div className='bg-[#F3E8DF] hover:bg-[#B68C5A] hover:text-[white] h-[222px] max-w-72 rounded-lg transition-colors duration-300 group'>
                     <div className='p-6'>
                         <Image src='/2.png' height={26} width={32} alt='order' className='transition-colors duration-300 group-hover:invert'></Image>
                         <div className='flex justify-between pt-24'>
@@ -36,7 +36,7 @@ const WhatWeUs = () => {
                     </div>
 
                 </div>
-                <div className='bg-[#F3E8DF] hover:bg-[#B68C5A] hover:text-[white] h-[222px] w-72 rounded-lg transition-colors duration-300 group'>
+                <div className='bg-[#F3E8DF] hover:bg-[#B68C5A] hover:text-[white] h-[222px] max-w-72 rounded-lg transition-colors duration-300 group'>
                     <div className='p-6'>
                         <Image src='/3.png' height={26} width={32} alt='order' className='transition-colors duration-300 group-hover:invert'></Image>
                         <div className='flex justify-between pt-24'>
@@ -48,7 +48,7 @@ const WhatWeUs = () => {
                     </div>
 
                 </div>
-                <div className='bg-[#F3E8DF] hover:bg-[#B68C5A] hover:text-[white] h-[222px] w-72 rounded-lg transition-colors duration-300 group'>
+                <div className='bg-[#F3E8DF] hover:bg-[#B68C5A] hover:text-[white] h-[222px] max-w-72 rounded-lg transition-colors duration-300 group'>
                     <div className='p-6'>
                         <Image src='/4.png' height={26} width={32} alt='order' className='transition-colors duration-300 group-hover:invert'></Image>
                         <div className='flex justify-between pt-24'>
@@ -60,7 +60,7 @@ const WhatWeUs = () => {
                     </div>
 
                 </div>
-                <div className='bg-[#F3E8DF] hover:bg-[#B68C5A] hover:text-[white] h-[222px] w-72 rounded-lg transition-colors duration-300 group'>
+                <div className='bg-[#F3E8DF] hover:bg-[#B68C5A] hover:text-[white] h-[222px] max-w-72 rounded-lg transition-colors duration-300 group'>
                     <div className='p-6'>
                         <Image src='/5.png' height={26} width={32} alt='order' className='transition-colors duration-300 group-hover:invert'></Image>
                         <div className='flex justify-between pt-24'>
@@ -72,7 +72,7 @@ const WhatWeUs = () => {
                     </div>
 
                 </div>
-                <div className='bg-[#F3E8DF] hover:bg-[#B68C5A] hover:text-[white] h-[222px] w-72 rounded-lg transition-colors duration-300 group'>
+                <div className='bg-[#F3E8DF] hover:bg-[#B68C5A] hover:text-[white] h-[222px] max-w-72 rounded-lg transition-colors duration-300 group'>
                     <div className='p-6'>
                         <Image src='/6.png' height={26} width={32} alt='order' className='transition-colors duration-300 group-hover:invert'></Image>
                         <div className='flex justify-between pt-24'>
@@ -84,7 +84,7 @@ const WhatWeUs = () => {
                     </div>
 
                 </div>
-                <div className='bg-[#F3E8DF] hover:bg-[#B68C5A] hover:text-[white] h-[222px] w-72 rounded-lg transition-colors duration-300 group'>
+                <div className='bg-[#F3E8DF] hover:bg-[#B68C5A] hover:text-[white] h-[222px] max-w-72 rounded-lg transition-colors duration-300 group'>
                     <div className='p-6'>
                         <Image src='/7.png' height={26} width={32} alt='order' className='transition-colors duration-300 group-hover:invert'></Image>
                         <div className='flex justify-between pt-24'>
@@ -96,7 +96,7 @@ const WhatWeUs = () => {
                     </div>
 
                 </div>
-                <div className='bg-[#F3E8DF] hover:bg-[#B68C5A] hover:text-[white] h-[222px] w-72 rounded-lg transition-colors duration-300 group'>
+                <div className='bg-[#F3E8DF] hover:bg-[#B68C5A] hover:text-[white] h-[222px] max-w-72 rounded-lg transition-colors duration-300 group'>
                     <div className='p-6'>
                         <Image src='/8.png' height={26} width={32} alt='order' className='transition-colors duration-500 group-hover:invert'></Image>
                         <div className='flex justify-between pt-24'>

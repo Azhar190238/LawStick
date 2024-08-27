@@ -3,7 +3,7 @@ import React from 'react';
 
 const AboutUs = () => {
     return (
-        <div className='max-w-[1230px] mx-auto my-24'>
+        <div className='max-w-[1320px] mx-auto my-24'>
             <div className='flex flex-col lg:flex-row space-x-20'>
                 <div>
                     <Image

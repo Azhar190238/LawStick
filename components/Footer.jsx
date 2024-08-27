@@ -4,7 +4,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='bg-[#F9F6EE]'>
-            <footer className="footer space-x-24 max-w-[1230px] mx-auto pt-16 pb-10">
+            <footer className="footer1 space-x-24 max-w-[1320px] mx-auto pt-16 pb-10">
                 <nav>
                     <Image src='/logo.png' width={150} height={45} alt='logo' className='-mt-3'></Image>
                     <p className="font-semibold text-2xl text-[#0C0C15] mb-4 mt-11">Enter Your Email To Get The Latest News</p>

@@ -19,7 +19,7 @@ const Experience = () => {
                 <div className="carousel w-full">
                     <div id="slide1" className="carousel-item relative w-full">
 
-                        <div className='max-w-[1230px] mx-auto pt-20 pb-8 pl-5'>
+                        <div className='max-w-[1320px] mx-auto pt-20 pb-8 pl-5'>
                             <div className='flex flex-col lg:flex-row justify-between'>
                                 <div className='flex-1'>
                                     <div>
@@ -66,7 +66,7 @@ const Experience = () => {
                     </div>
                     <div id="slide2" className="carousel-item relative w-full">
 
-                        <div className='max-w-[1230px] mx-auto pt-20 pb-8 pl-5'>
+                        <div className='max-w-[1320px] mx-auto pt-20 pb-8 pl-5'>
                             <div className='flex flex-col lg:flex-row justify-between'>
                                 <div className='flex-1'>
                                     <div>
@@ -113,7 +113,7 @@ const Experience = () => {
                     </div>
                     <div id="slide3" className="carousel-item relative w-full">
 
-                        <div className='max-w-[1230px] mx-auto pt-20 pb-8 pl-5'>
+                        <div className='max-w-[1320px] mx-auto pt-20 pb-8 pl-5'>
                             <div className='flex flex-col lg:flex-row justify-between'>
                                 <div className='flex-1'>
                                     <div>
@@ -160,7 +160,7 @@ const Experience = () => {
                     </div>
                     <div id="slide4" className="carousel-item relative w-full">
 
-                        <div className='max-w-[1230px] mx-auto pt-20 pb-8 pl-5'>
+                        <div className='max-w-[1320px] mx-auto pt-20 pb-8 pl-5'>
                             <div className='flex flex-col lg:flex-row justify-between'>
                                 <div className='flex-1'>
                                     <div>
