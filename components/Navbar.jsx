@@ -88,9 +88,6 @@
 // // export default Navbar;
 
 
-// "use client";
-// import { LuUser2 } from "react-icons/lu";
-
 
 
 
