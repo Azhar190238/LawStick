@@ -84,12 +84,7 @@
 //                         </button>
 //                     </div>
 //                 </div>
-//             </div>
-//         </div>
-//     );
-// };
 
-// export default Hero2;
 
 import Image from 'next/image';
 import React from 'react';
