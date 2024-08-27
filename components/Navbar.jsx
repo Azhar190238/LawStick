@@ -55,9 +55,7 @@
 // //                                 </Link>
 // //                             </li>
 // //                         ))}
-// //                     </ul>
-// //                 </div>
-// //                 <Image src='/logo.png' height={46} width={157} alt="logo image"></Image>
+
 
 
 
