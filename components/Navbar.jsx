@@ -69,12 +69,7 @@
 // //                                 className={activeLink === link.name ? 'text-[#B68C5A]' : ''}
 // //                                 onClick={() => setActiveLink(link.name)}
 // //                             >
-// //                                 {link.name}
-// //                             </Link>
-// //                         </li>
-// //                     ))}
-// //                 </ul>
-// //             </div>
+
 
 
 
