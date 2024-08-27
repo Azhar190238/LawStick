@@ -142,12 +142,6 @@
 //                                         </span>
 //                                         <ul className="dropdown-content mt-1 p-2 text-[16px]">
 //                                             {link.submenu.map(sublink => (
-//                                                 <li key={sublink.key}>
-//                                                     <Link
-//                                                         href={sublink.path}
-//                                                         className={activeLink === link.label ? 'text-[#B68C5A]' : ''}
-//                                                         onClick={() => setActiveLink(link.label)}
-//                                                     >
 
 
 
