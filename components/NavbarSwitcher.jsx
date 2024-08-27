@@ -1,5 +1,5 @@
 
-"use client"; // Ensure this is a Client Component
+"use client"; 
 
 import { usePathname } from "next/navigation";
 import Navbar from "@/components/Navbar";
