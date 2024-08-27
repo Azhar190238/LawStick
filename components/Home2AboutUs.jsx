@@ -28,10 +28,7 @@ const Home2AboutUs = () => {
                         </h2>
                         <p className='text-[#5B5353] text-[16px] mb-10 max-w-[750px]'>Our firm is committed to delivering justice with integrity and expertise. We provide personalized
                             legal services, ensuring every client receives trusted guidance and dedicated support.</p>
-                        {/* <button className="px-8 py-4 flex border-2 border-[#B68C5A] text-[#1D1C22] text-xl rounded-[4px] hover:bg-[#B68C5A] hover:text-white transition-colors duration-300">
-                        learn more
-                        <Image src='/Frame.svg' height={24} width={24} alt='arrow' className='ml-2 mt-1 transition-colors duration-300 group-hover:invert '></Image>
-                    </button> */}
+
                         <div className="flex justify-start">
                             <button className="px-8 py-4 border-2 border-[#B68C5A] text-[#1D1C22] text-xl rounded-[4px] hover:bg-[#B68C5A] hover:text-white transition-colors duration-300">
                             About Our Firm
