@@ -9,7 +9,6 @@ import 'swiper/css/pagination';
 
 
 import './styleFace.css'
-// import required modules
 import { Pagination } from 'swiper/modules';
 import Image from 'next/image';
 const FaceJustice = () => {
