@@ -56,12 +56,6 @@
 //             className="relative -top-24 bg-cover bg-center bg-no-repeat h-screen w-full flex items-center"
 //             style={{ backgroundImage: 'url(/bg-image.png)' }}
 //         >
-//             <div className='w-full max-w-[1320px] pl-8 md:pl-16'>
-//                 <div className='flex flex-col items-start'>
-//                     <div className='border-2 border-[#B68C5A] text-left max-w-[250px] mb-10'>
-//                         <p className='text-[#021C1B] text-xl py-2 px-3'>championing Justice...</p>
-
-
 
 
 import Image from 'next/image';
