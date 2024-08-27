@@ -52,10 +52,7 @@
 
 // const Hero2 = () => {
 //     return (
-//         <div
-//             className="relative -top-24 bg-cover bg-center bg-no-repeat h-screen w-full flex items-center"
-//             style={{ backgroundImage: 'url(/bg-image.png)' }}
-//         >
+
 
 
 import Image from 'next/image';
