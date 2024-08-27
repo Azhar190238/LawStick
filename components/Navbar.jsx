@@ -109,10 +109,7 @@
 //         { label: 'About', path: '/' },
 //         { label: 'Services', path: '/' },
 //         { label: 'Case Study', path: '/' },
-//         { label: 'Page', path: '/' },
-//         { label: 'Blogs', path: '/' },
-//         { label: 'Contact Us', path: '/' },
-//     ];
+
 
 
 
