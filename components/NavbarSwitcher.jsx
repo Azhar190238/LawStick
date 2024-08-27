@@ -1,4 +1,4 @@
-// components/NavbarSwitcher.js
+
 "use client"; // Ensure this is a Client Component
 
 import { usePathname } from "next/navigation";
