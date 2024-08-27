@@ -175,9 +175,7 @@
 //                         <li key={link.key}>
 //                             {link.submenu ? (
 //                                 <div className="dropdown inline-block relative">
-//                                     <span className={activeLink === link.label ? 'text-[#B68C5A] cursor-pointer' : 'cursor-pointer'}>
-//                                         {link.label}
-//                                     </span>
+
 
 
 
