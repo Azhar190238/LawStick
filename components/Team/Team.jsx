@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
-import { Swiper, SwiperSlide  } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -36,7 +36,7 @@ const Team = () => {
                     <h1 className='heading text-center'>the faces of justice</h1>
                 </div>
             </div>
-            <div className=''>
+            <div className='h-[500px]'>
                 <Swiper
                     effect={'coverflow'}
                     grabCursor={true}
@@ -50,74 +50,95 @@ const Team = () => {
                         modifier: 2.5,
                         slideShadows: true,
                     }}
-                    autoplay={{
-                        delay: 3000,
-                        disableOnInteraction: false,
-                    }}
-                    modules={[EffectCoverflow , Autoplay]}
-                    className="mySwiper"
+                    // autoplay={{
+                    //     delay: 3000,
+                    //     disableOnInteraction: false,
+                    // }}
+                    modules={[EffectCoverflow, Autoplay]}
+                    className="mySwiper w-full max-w-[1400px] !h-[500px]"
                 >
-                    <SwiperSlide>
+                    <SwiperSlide className='!h-[480px] !w-[400px]'>
                         <div>
-                            <Image src='/sliderTeam.png' height={500} width={500} alt='Blog Icon' >
-
-                            </Image>
-
-                            <div style={gradientStyle} className='relative w-72 -mt-[87px] ml-[7px] h-20 pl-5 '>
+                            <Image src='/sliderTeam.png' height={410} width={370} alt='Blog Icon' />
+                            <div style={gradientStyle} className='title relative w-[370px] -mt-[105px] ml-[9px] h-24 pl-5 rounded-lg '>
                                 <h3 className='text-white text-xl pt-5'>Antony Das</h3>
                                 <p className='mt-3 text-white text-xs'>Criminal Lawyer</p>
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className='!h-[480px] !w-[400px]'>
                         <div>
-                            <Image src='/sliderTeam.png' height={500} width={500} alt='Blog Icon' >
-
-                            </Image>
-
-                            <div style={gradientStyle} className='relative w-72 -mt-[87px] ml-[7px] h-20 pl-5 '>
+                            <Image src='/sliderTeam.png' height={410} width={370} alt='Blog Icon' />
+                            <div style={gradientStyle} className=' title relative w-[370px] -mt-[105px] ml-[9px] h-24 pl-5 rounded-lg '>
                                 <h3 className='text-white text-xl pt-5'>Antony Das</h3>
                                 <p className='mt-3 text-white text-xs'>Criminal Lawyer</p>
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className='!h-[480px] !w-[400px]'>
                         <div>
-                            <Image src='/sliderTeam.png' height={500} width={500} alt='Blog Icon' >
-
-                            </Image>
-
-                            <div style={gradientStyle} className='relative w-72 -mt-[87px] ml-[7px] h-20 pl-5 '>
+                            <Image src='/sliderTeam.png' height={410} width={370} alt='Blog Icon' />
+                            <div style={gradientStyle} className='title relative w-[370px] -mt-[105px] ml-[9px] h-24 pl-5 rounded-lg '>
                                 <h3 className='text-white text-xl pt-5'>Antony Das</h3>
                                 <p className='mt-3 text-white text-xs'>Criminal Lawyer</p>
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className='!h-[480px] !w-[400px]'>
                         <div>
-                            <Image src='/sliderTeam.png' height={500} width={500} alt='Blog Icon' >
-
-                            </Image>
-
-                            <div style={gradientStyle} className='relative w-72 -mt-[87px] ml-[7px] h-20 pl-5 '>
+                            <Image src='/sliderTeam.png' height={410} width={370} alt='Blog Icon' />
+                            <div style={gradientStyle} className='title relative w-[370px] -mt-[105px] ml-[9px] h-24 pl-5 rounded-lg '>
                                 <h3 className='text-white text-xl pt-5'>Antony Das</h3>
                                 <p className='mt-3 text-white text-xs'>Criminal Lawyer</p>
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className='!h-[480px] !w-[400px]'>
                         <div>
-                            <Image src='/sliderTeam.png' height={500} width={500} alt='Blog Icon' >
-
-                            </Image>
-
-                            <div style={gradientStyle} className='relative w-72 -mt-[87px] ml-[7px] h-20 pl-5 '>
+                            <Image src='/sliderTeam.png' height={410} width={370} alt='Blog Icon' />
+                            <div style={gradientStyle} className='title relative w-[370px] -mt-[105px] ml-[9px] h-24 pl-5 rounded-lg '>
                                 <h3 className='text-white text-xl pt-5'>Antony Das</h3>
                                 <p className='mt-3 text-white text-xs'>Criminal Lawyer</p>
                             </div>
                         </div>
                     </SwiperSlide>
-
+                    <SwiperSlide className='!h-[480px] !w-[400px]'>
+                        <div>
+                            <Image src='/sliderTeam.png' height={410} width={370} alt='Blog Icon' />
+                            <div style={gradientStyle} className='title relative w-[370px] -mt-[105px] ml-[9px] h-24 pl-5 rounded-lg '>
+                                <h3 className='text-white text-xl pt-5'>Antony Das</h3>
+                                <p className='mt-3 text-white text-xs'>Criminal Lawyer</p>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='!h-[480px] !w-[400px]'>
+                        <div>
+                            <Image src='/sliderTeam.png' height={410} width={370} alt='Blog Icon' />
+                            <div style={gradientStyle} className='title relative w-[370px] -mt-[105px] ml-[9px] h-24 pl-5 rounded-lg '>
+                                <h3 className='text-white text-xl pt-5'>Antony Das</h3>
+                                <p className='mt-3 text-white text-xs'>Criminal Lawyer</p>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='!h-[480px] !w-[400px]'>
+                        <div>
+                            <Image src='/sliderTeam.png' height={410} width={370} alt='Blog Icon' />
+                            <div style={gradientStyle} className='title relative w-[370px] -mt-[105px] ml-[9px] h-24 pl-5 rounded-lg '>
+                                <h3 className='text-white text-xl pt-5'>Antony Das</h3>
+                                <p className='mt-3 text-white text-xs'>Criminal Lawyer</p>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='!h-[480px] !w-[400px]'>
+                        <div>
+                            <Image src='/sliderTeam.png' height={410} width={370} alt='Blog Icon' />
+                            <div style={gradientStyle} className='title relative w-[370px] -mt-[105px] ml-[9px] h-24 pl-5 rounded-lg '>
+                                <h3 className='text-white text-xl pt-5'>Antony Das</h3>
+                                <p className='mt-3 text-white text-xs'>Criminal Lawyer</p>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    
                 </Swiper>
 
             </div>

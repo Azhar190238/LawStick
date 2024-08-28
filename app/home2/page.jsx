@@ -1,9 +1,12 @@
 // import Navbar from '@/components/Navbar';
 // import FaceJustice from '@/components/FaceJustice/FaceJustice';
 import CaseStudy from '@/components/CaseStudy';
+import ClientsExperience from '@/components/ClientsEcperience';
 import FaceJustice from '@/components/FaceJustice/FaceJustice';
 import Hero2 from '@/components/Hero2';
 import Home2AboutUs from '@/components/Home2AboutUs';
+import LatestAndTopBlog from '@/components/LatestAndTopBlog';
+import OnlineBooking from '@/components/OnlineBooking';
 import OurMission from '@/components/OurMission';
 import OurServices from '@/components/OurServices';
 import Statistics from '@/components/Statistics';
@@ -19,6 +22,9 @@ const page = () => {
              <Home2AboutUs></Home2AboutUs>
              <FaceJustice></FaceJustice>
              <CaseStudy></CaseStudy>
+             <ClientsExperience></ClientsExperience>
+             <LatestAndTopBlog></LatestAndTopBlog>
+             <OnlineBooking></OnlineBooking>
      
         </div>
     );
