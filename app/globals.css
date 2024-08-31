@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.svg-icon path {
+    fill: #0C0C15; /* Default black color */
+    transition: fill 0.3s ease;
+}
+
+.svg-icon:hover path {
+    fill: red; /* Change to red on hover */
+}
+
 .heading {
     color: var(--primary-text, #021C1B);
     font-family: Poppins;
@@ -91,4 +101,15 @@
     font-weight: 400;
     line-height: normal;
     text-transform: capitalize;
+}
+.red-filter {
+    filter: brightness(0) saturate(100%) invert(24%) sepia(94%) saturate(7476%) hue-rotate(340deg) brightness(104%) contrast(105%);
+}
+
+/* .ploygon-image {
+    clip-path: polygon(87% 14%, 100% 50%, 86% 87%, 50% 100%, 13% 87%, 0 54%, 12% 15%, 48% 0%)
+} */
+
+.polygon-image {
+    clip-path: polygon(86% 14%, 100% 50%, 86% 86%, 50% 100%, 14% 86%, 0% 50%, 14% 14%, 50% 0%);
 }

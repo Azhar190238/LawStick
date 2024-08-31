@@ -13,7 +13,7 @@ const OurServices = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'>
                     <div className='border-[#E4D7D7] bg-[#EFF5F5] hover:bg-[#B68C5A] hover:text-[white]  max-w-[312px] rounded-lg transition-colors duration-300 group'>
                         <div className='p-6 hover:text-white'>
-                            <Image src='/2.png' height={26} width={32} alt='order' className='transition-colors duration-300 group-hover:invert'></Image>
+                            <Image src='/2.png' height={26} width={32} alt='order' className='transition-colors duration-300 group-hover:filter group-hover:brightness-0 group-hover:invert'></Image>
 
                             <h1 className='text-[18px] font-bold pt-10'>Law Family</h1>
                             <p className=' text-[16px] pt-10 text-justify '>Lorem ipsum dolor sit amet, consecte
@@ -23,7 +23,7 @@ const OurServices = () => {
                     </div>
                     <div className='border-[#E4D7D7] bg-[#EFF5F5] hover:bg-[#B68C5A] hover:text-[white]  max-w-[312px] rounded-lg transition-colors duration-300 group'>
                         <div className='p-6 hover:text-white'>
-                            <Image src='/hs.png' height={26} width={32} alt='order' className='transition-colors duration-300 group-hover:invert'></Image>
+                            <Image src='/hs.png' height={26} width={32} alt='order' className='transition-colors duration-300 group-hover:filter group-hover:brightness-0 group-hover:invert'></Image>
 
                             <h1 className='text-[18px] font-bold pt-10'>Law Criminal</h1>
                             <p className=' text-[16px] pt-10 text-justify '>Lorem ipsum dolor sit amet, consecte
@@ -33,7 +33,7 @@ const OurServices = () => {
                     </div>
                     <div className='border-[#E4D7D7] bg-[#EFF5F5] hover:bg-[#B68C5A] hover:text-[white]  max-w-[312px] rounded-lg transition-colors duration-300 group'>
                         <div className='p-6 hover:text-white'>
-                            <Image src='/3.png' height={26} width={32} alt='order' className='transition-colors duration-300 group-hover:invert'></Image>
+                            <Image src='/3.png' height={26} width={32} alt='order' className='transition-colors duration-300 group-hover:filter group-hover:brightness-0 group-hover:invert'></Image>
 
                             <h1 className='text-[18px] font-bold pt-10'>Law Real-Estate</h1>
                             <p className=' text-[16px] pt-10 text-justify '>Lorem ipsum dolor sit amet, consecte
@@ -43,7 +43,7 @@ const OurServices = () => {
                     </div>
                     <div className='border-[#E4D7D7] bg-[#EFF5F5] hover:bg-[#B68C5A] hover:text-[white]  max-w-[312px] rounded-lg transition-colors duration-300 group'>
                         <div className='p-6 hover:text-white'>
-                            <Image src='/5.png' height={26} width={32} alt='order' className='transition-colors duration-300 group-hover:invert'></Image>
+                            <Image src='/5.png' height={26} width={32} alt='order' className='transition-colors duration-300 group-hover:filter group-hover:brightness-0 group-hover:invert'></Image>
 
                             <h1 className='text-[18px] font-bold pt-10'>Law Professional Advice</h1>
                             <p className=' text-[16px] pt-10 text-justify '>Lorem ipsum dolor sit amet, consecte

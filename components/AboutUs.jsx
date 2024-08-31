@@ -5,15 +5,35 @@ const AboutUs = () => {
     return (
         <div className='max-w-[1320px] mx-auto my-24'>
             <div className='flex flex-col lg:flex-row space-x-20'>
-                <div>
-                    <Image
+                <div className='relative'>
+                    {/* <Image
                         src='/together.png'
                         height={600}
                         width={550}
                         alt='photo'
                         className=''
 
-                    />
+                    /> */}
+                
+                        <Image
+                            src='/photo2.png'
+                            height={536}
+                            width={480}
+                            alt='photo'
+                            className=''
+
+                        />
+                   
+                    <div className='bg-[#B68C5A] w-[390px] h-[450px] rounded-[8px] absolute top-8 left-8'>
+                    <Image
+                            src='/group-image.png'
+                            height={450}
+                            width={390}
+                            alt='photo'
+                            className='relative top-6 left-6 rounded-[8px]'
+
+                        />
+                    </div>
                 </div>
                 <div>
                     <div className='flex space-x-2 mb-6'>

@@ -5,7 +5,7 @@ import React from 'react';
 const ClientsExperience = () => {
     return (
         <section className='bg-[#EFF5F5] py-14'>
-            <div className='max-w-[1320px] mx-auto border border-red-800'>
+            <div className='max-w-[1320px] mx-auto'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6 items-center justify-between'>
                     <div className=''>
                         {/* Slider Part */}

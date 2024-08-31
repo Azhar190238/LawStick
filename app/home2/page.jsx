@@ -9,6 +9,7 @@ import LatestAndTopBlog from '@/components/LatestAndTopBlog';
 import OnlineBooking from '@/components/OnlineBooking';
 import OurMission from '@/components/OurMission';
 import OurServices from '@/components/OurServices';
+import OurTeam from '@/components/OurTeam/OurTeam';
 import Statistics from '@/components/Statistics';
 import React from 'react';
 
@@ -20,7 +21,8 @@ const page = () => {
              <OurMission></OurMission>
              <OurServices></OurServices> 
              <Home2AboutUs></Home2AboutUs>
-             <FaceJustice></FaceJustice>
+             <OurTeam></OurTeam>
+             {/* <FaceJustice></FaceJustice> */}
              <CaseStudy></CaseStudy>
              <ClientsExperience></ClientsExperience>
              <LatestAndTopBlog></LatestAndTopBlog>

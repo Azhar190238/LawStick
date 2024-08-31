@@ -41,6 +41,7 @@ const Team = () => {
                     effect={'coverflow'}
                     grabCursor={true}
                     centeredSlides={true}
+                    spaceBetween={30}
                     loop={true}
                     slidesPerView={'auto'}
                     coverflowEffect={{
