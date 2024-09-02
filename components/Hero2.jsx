@@ -5,7 +5,7 @@ import React from 'react';
 const Hero2 = () => {
     return (
         <div
-            className="relative -top-24 bg-cover bg-center bg-no-repeat h-screen w-full bg-[#1C1C1F]"
+            className="relative -top-24  bg-cover bg-center bg-no-repeat h-screen w-full  bg-[#1C1C1FB3]"
             style={{ backgroundImage: 'url(/bg-image.png)' }}
         >
 
